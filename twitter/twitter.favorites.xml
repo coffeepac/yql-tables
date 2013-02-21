@@ -9,7 +9,7 @@
 	<bindings>
 		<select itemPath="statuses" produces="XML">
 			<urls>
-				<url>http://api.twitter.com/1.1/favorites/{id}.{format}</url>
+				<url>http://api.twitter.com/1/favorites/{id}.{format}</url>
 			</urls>
 			<inputs>
 				<key id="id" type="xs:string" paramType="path" required="true"/>
